@@ -25,3 +25,5 @@ AND SRC_FLD_NM = 'EINUN_TOT_SI'
 AND SRC_FLD_ID = 6;
 
 COMMIT;
+
+--Michal Krolik
