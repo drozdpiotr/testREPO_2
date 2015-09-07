@@ -1,4 +1,4 @@
-﻿/*Remove additional fields that currently exist*/
+/*Remove additional fields that currently exist*/
 DELETE
 FROM JM_NEXUS_FL_TO_STG_MPNGS
 WHERE SRC_FILE_NM = 'ES_IMS_RETAIL_SALES'
