@@ -1,4 +1,4 @@
-/*Remove additional fields that currently exist*/
+﻿/*Remove additional fields that currently exist*/
 DELETE
 FROM JM_NEXUS_FL_TO_STG_MPNGS
 WHERE SRC_FILE_NM = 'ES_IMS_RETAIL_SALES'
@@ -18,7 +18,7 @@ SET SRC_FLD_ID = 4
 WHERE SRC_FILE_NM = 'ES_IMS_RETAIL_SALES'
 --teraz jescze jedno
 AND SRC_FLD_NM = 'EINEU_MNF_SI'
-AND SRC_FLD_ID = 13;
+AND SRC_FLD_ID = 20;
 
 UPDATE JM_NEXUS_FL_TO_STG_MPNGS
 SET SRC_FLD_ID = 5
